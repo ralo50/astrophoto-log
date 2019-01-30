@@ -9,6 +9,11 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setViews()
+
+    }
+
+    private fun setViews() {
         val nameText = findViewById<TextView>(R.id.textView)
         nameText.setText("KOTLIN BRAT - DIZNILEND")
     }
