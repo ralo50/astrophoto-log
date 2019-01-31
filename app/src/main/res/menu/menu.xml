@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_my_astrophotos"
+                android:icon="@drawable/photos"
+                android:title="@string/my_astrophotos"
+                android:checked="true"/>
+        <item
+                android:id="@+id/nav_edit_equipment"
+                android:icon="@drawable/equipment"
+                android:title="@string/edit_equipment"/>
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/support">
+
+        <item android:title="@string/nav_support">
+            <item
+                    android:id="@+id/nav_help"
+                    android:icon="@android:drawable/ic_menu_help"
+                    android:title="@string/nav_help"/>
+            <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@android:drawable/sym_action_email"
+                    android:title="@string/nav_feedback"/>
+
+        </item>
+    </group>
+</menu>
